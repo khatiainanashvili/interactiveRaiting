@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/interactiveRaiting/static/css/main.ba3108f3.css",
+    "main.js": "/interactiveRaiting/static/js/main.109435c3.js",
+    "static/media/illustration-thank-you.svg": "/interactiveRaiting/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/interactiveRaiting/index.html",
+    "main.ba3108f3.css.map": "/interactiveRaiting/static/css/main.ba3108f3.css.map",
+    "main.109435c3.js.map": "/interactiveRaiting/static/js/main.109435c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba3108f3.css",
+    "static/js/main.109435c3.js"
+  ]
+}
