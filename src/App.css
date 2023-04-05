@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  width: 412px;
+  height: 416px;
+  border-radius: 30px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-content {
+  width: 342px;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  margin: 32px auto;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262E38;
+}
+
+h3 {
+  color: #ffff;
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+p {
+  color:#969FAD;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.stars{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #7C8798;
+  cursor: pointer;
+  font-weight: 700;
+ 
+}
+.point{
+  transition: background-color 0.3s ease-in;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0;
+}
+.point:hover {
+  background-color: #7C8798;
+  color: #fff;
+}
+
+.active {
+  background-color: #FC7614;
+  color: #ffff;
+}
+
+.submit {
+  width: 100%;
+  color: #fff;
+  background-color: #FC7614;
+  border-radius: 22.5px;
+  padding: 11px 0;
+  border: 0;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 18.99px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+.submit:hover {
+  color: #FC7614;
+  background-color: #fff;
+}
+
+.raiting-image {
+  width: 157px;
+}
+.card-center {
+
+   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.raiting {
+  margin-top: 20px;
+  color: #FC7614;
+  background-color: #262E38;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.raiting-result {
+  color:#FC7614;
+  background-color: #262E38;
+  border-radius: 22px;
+  padding:4px 19px;
+  width: 50%;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-thanks {
+  margin-top: -10px;
+}
+.card-thanks h3 {
+  line-height: 35.5px;
+  margin-bottom: 7px;
+}
+.card-thanks p {
+  line-height: 24px;
 }
